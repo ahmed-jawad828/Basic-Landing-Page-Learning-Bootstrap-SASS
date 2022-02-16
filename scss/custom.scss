@@ -1,0 +1,41 @@
+$theme-colors:(
+  "dark-blue":#08083D,
+  "success-green":#23CE6B,
+);
+@font-face {
+  font-family: Gilroy-ExtraBold;
+  src: url(/assets/fonts/Gilroy-ExtraBold.ttf);
+}
+ @font-face {
+  font-family: Gilroy-Light;
+  src: url(/assets/fonts/Gilroy-Light.ttf);
+}
+.nav-main-style{
+  top: 0px;
+  left: -0.25px;
+  width: 1920px;
+  height: 100px;
+  padding:31px 296px 31px 0px;
+}
+.nav-logo{
+  font-size: 31px !important;
+  margin-left: 296px;
+  width: 176px;
+  height: 38px;
+  text-align: left;
+  font: normal normal 800 31px/38px Gilroy-ExtraBold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.sub-ul-style{
+  width: 100%;  
+  justify-content: end;
+}
+.ul-font-style{
+  font-size: 16px !important;
+  font: normal normal 300 16px/19px Gilroy-Light;
+  letter-spacing: 0px;
+color: #FFFFFF;
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
