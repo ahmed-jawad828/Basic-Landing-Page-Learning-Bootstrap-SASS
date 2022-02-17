@@ -17,7 +17,6 @@
 
 .nav-logo {
   font-size: 31px !important;
-  margin-left: 296px;
   width: 176px;
   height: 38px;
   text-align: left;
@@ -39,6 +38,79 @@
   color: #FFFFFF;
 }
 
+.herosection-style {
+  background: transparent url("/assets/images/Group1321.png") 100% 0% no-repeat;
+  height: 713px;
+  background-size: cover;
+}
+
+.footer-style {
+  width: 1920px;
+  background: transparent url("/assets/images/Group2176.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.sub-footer-style {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+
+.sub-footer-contact-style {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sub-footer-social-media-style {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+
+.title-style-for-mobile {
+  display: none;
+}
+
+.footer-card-style {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-toggler {
+  border-radius: 0rem;
+}
+
+.title-mobile-style {
+  font-family: "Gilroy-ExtraBold";
+  font: normal normal 800 20px/24px Gilroy-ExtraBold;
+}
+
+@media (min-width: 450px) {
+  .collapse-style {
+    position: absolute;
+    top: 90px;
+  }
+
+  .title-style-for-mobile {
+    top: 60px;
+    width: 224px;
+    height: 24px;
+    font: normal normal 800 24px/24px Gilroy-ExtraBold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: red;
+    z-index: 99;
+  }
+
+  .footer-style {
+    display: none;
+  }
+}
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
