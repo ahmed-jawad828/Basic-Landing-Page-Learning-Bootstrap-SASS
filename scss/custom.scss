@@ -1,5 +1,6 @@
   $theme-colors:(
     "dark-blue":#08083D,
+    "light-sky-blue":#e8efff,
     "success-green":#23CE6B,
   );
   @font-face {
@@ -10,6 +11,7 @@
     font-family: Gilroy-Light;
     src: url(/assets/fonts/Gilroy-Light.ttf);
   }
+  
   .nav-main-style{
     top: 0px;
     left: -0.25px;
@@ -37,17 +39,35 @@
     font: normal normal 300 16px/19px Gilroy-Light;
     letter-spacing: 0px;
   color: #FFFFFF;
-  }
+  } 
 
   .herosection-style{
     background: transparent url('/assets/images/Group1321.png') 100% 0% no-repeat ;
     height: 713px;
     background-size: cover; 
   }
-  .footer-style{
-    width: 1920px;
+
+  .feature-title-style{
+
+    // width: 434px;
+height: 62px;
+font-size: 61px;
+/* UI Properties */
+// text-align: center;
+font-family: Gilroy-ExtraBold;
+letter-spacing: 0px;
+color: #08083D;
+opacity: 1;
+  }
+.sub-font-style{
+  font-size: 24px;
+  font-family: Gilroy-ExtraBold;
+  color: #08083D;
+
+}
+  .footer-styling{
     background: transparent url('/assets/images/Group2176.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background-size: cover;
   }
 
   .sub-footer-style{
